@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "daily-learnings"
+version = "0.1.0"
+description = "This project consist of different python libraries that we will test."
+authors = ["ramyagirish <girish.sureshkumar@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+pyperclip = "^1.8.2"
+ipykernel = "^6.21.2"
+
+[tool.poetry.group.dev.dependencies]
+pyperclip = "^1.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
